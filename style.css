@@ -1,0 +1,78 @@
+html {
+  font-family: 'Caveat Brush', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  background-image: url("Paper003_4K_Color.jpg");
+  background-repeat: repeat;
+}
+
+.divcenterer {
+  display: flex;
+  justify-content: center;
+}
+
+.divcenterer p {
+  text-align: center;
+}
+
+.toppadding {
+  padding-top: 3rem;
+}
+
+.screenshots {
+  display: flex;
+  justify-content: center;
+}
+
+.screenshots img {
+  width: 50vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.maincontents {
+  display: flex;
+  justify-content: center;
+}
+
+.maintext {
+  margin-left: 2rem;
+}
+
+.coolgame {
+  display: flex;
+  justify-content: center;
+}
+
+.mainimage {
+  width: 80%;
+}
+
+.yttrailer {
+  width: 25vw;
+  height: 15vw;
+}
+
+@media (max-width: 70rem) {
+  .maincontents {
+    display: block;
+  }
+
+  .yttrailer {
+    width: 90vw;
+    height: 50vw;
+  }
+
+  .screenshots {
+    display: block;
+  }
+
+  .itchio {
+    width: 90vw;
+  }
+
+  .screenshots img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 90vw;
+  }
+}
